@@ -1,0 +1,12 @@
+admin:
+  cluster: all
+  indices:
+    '*':
+    privileges: all
+kibana4_server:
+  cluster:
+      - monitor
+  indices:
+    - names: '.kibana'
+      privileges:
+        - all

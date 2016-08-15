@@ -1,0 +1,7 @@
+network.host: 0.0.0.0
+
+shield.authc:
+  anonymous:
+    username: anonymous_user
+    roles: kibana4_server
+    authz_exception: true
