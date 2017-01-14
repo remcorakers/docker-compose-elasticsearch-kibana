@@ -14,7 +14,7 @@ Start the containers from the cloned repository directory with
 docker-compose up
 ```
 
-At first run the images and plugins are downloaded and installed. When finished, navigate to http://localhost:9200 for the Elasticsearch endpoint, http://localhost:9200/_plugin/hq/ for Elastic-HQ and  http://localhost:5601 for Kibana.
+At first run the images and plugins are downloaded and installed. When finished, navigate to [http://localhost:9200](http://localhost:9200) for the Elasticsearch endpoint, [http://localhost:9200/_plugin/hq](http://localhost:9200/_plugin/hq) for Elastic-HQ and [http://localhost:5601](http://localhost:5601) for Kibana.
 
 The Elasticsearch data directory is located as a sibling of the directory containing the Docker Compose recipe and is called `elasticsearch-data`.
 
