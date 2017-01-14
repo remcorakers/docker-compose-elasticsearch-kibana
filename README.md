@@ -10,7 +10,9 @@ This Docker compose recipe combines the (legacy) Docker images [elasticsearch:2]
 
 Start the containers from the cloned repository directory with
 
-```docker-compose up```
+```Shell
+docker-compose up
+```
 
 At first run the images and plugins are downloaded and installed. When finished, navigate to http://localhost:9200 for the Elasticsearch endpoint, http://localhost:9200/_plugin/hq/ for Elastic-HQ and  http://localhost:5601 for Kibana.
 
